@@ -1,0 +1,308 @@
+------------------------------------------------------------
+oya:新規登録画面
+---
+Remote Address:75.101.152.27:443
+Request URL:https://learning.sonicgarden.jp/messages/new
+Request Method:GET
+Status Code:200 OK
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:ja,en-US;q=0.8,en;q=0.6
+Connection:keep-alive
+Cookie:_ga=; _sglearnings_session=cUR4bGZ2WFFlUzBIb0JsRTNmQU5GdC85QlU2TkIzUFpJSHRheDRoYmxqVWJVTXZrM1RRb0o4M1c3R0dudnFmakxuQ1ZKY0tibEhVZTFpZnBIQUJCajZFM0U3VmVFK293Mi9xU2hYYWtSN1NPbXBjK25tSTQvQ1BPazh6b1lUcGpWNDBUWmhsaUp2Y2x4NkVTMW0rNFQwZE53YTRRUzRtRlR3TzFCdXo0YTIvNjFKV1JFQlRUVW1MeWUrTmhtb0JiYmNrUCtTaE9EL25rOUJRT0EvaVJGUmI2VEw1LzB5Ynk5cjFSREx0SmlXbz0tLUpqUWg2OUNkdkhsY0FLOCtMVitkVkE9PQ%3D%3D--2d966719db9ee49d2ec24f5aa90eadbd4035a141
+Host:learning.sonicgarden.jp
+If-None-Match:"aabca9f83621b57a6fa30edec48374d9"
+Referer:https://learning.sonicgarden.jp/messages
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+Response Headersview source
+Cache-Control:max-age=0, private, must-revalidate
+Connection:keep-alive
+Content-Length:6146
+Content-Type:text/html; charset=utf-8
+Date:Sat, 08 Nov 2014 04:20:29 GMT
+Etag:"b0667c83973cba5e57bad296b691969f"
+Server:Cowboy
+Set-Cookie:_sglearnings_session=MU1yS2pNVGE5ZGl6VW9kQkNZSUVqWGszeURndjZJYnh5UlFEM0VlQ0R5OXpWM3pwME1Kd2xMN1doeGFtQ1FwU2h2N2VCT0VkeHRrdk8xRjdRUTZCZ0ZmdE5WQk1YNjlqNXA0aHhXNlZPT0d4R2ZQbFZicTVtdE5VSzVwTng1WVMxSXVWM295eUNUc1k4dmMzTnhhUnVSMmZYN3AwZEtVa2VXc2JvV0RxT3h6NGRWUDJwSmNJR21VejY2ejJ0NjdkSzI4a1R3NHhncnJ3K3RhNjdJaUhrNTVKUUdmNnl1bVNhb1NwL0VmMFpzMD0tLUJUYXgwM3AyZ2RsVWJUZnFEMXVodWc9PQ%3D%3D--3cc1d909d41ad12d1358dc9b0b3fc21fc28b0e91; path=/; secure; HttpOnly
+Strict-Transport-Security:max-age=31536000
+Via:1.1 vegur
+X-Content-Type-Options:nosniff
+X-Frame-Options:SAMEORIGIN
+X-Request-Id:500563f8-e131-4edd-a92e-fd895bb66d83
+X-Runtime:0.074129
+X-Xss-Protection:1; mode=block
+
+------------------------------------------------------------
+oya:新規登録 user,text
+--- html ---
+<!DOCTYPE html>
+<html dir='ltr' lang='ja' xmlns:fb='http://www.facebook.com/2008/fbml' xmlns:og='http://ogp.me/ns#'>
+<head>
+<meta charset='UTF-8'>
+<meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"3ecf80daf7","applicationID":"3826356","transactionName":"cQkMQ0pfX1VQFx4MXUEVA1BdQxxXUBI=","queueTime":1,"applicationTime":16,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-476.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=u(e),f=c.length,s=i(a,o,r),p=0;f>p;p++)c[p].apply(s,n);return s}function a(t,e){f[t]=u(t).concat(e)}function u(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:u,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=l.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=e.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",n,!1)):(c[s]("onreadystatechange",r),u[s]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script>
+<meta content='NOYDIR' name='ROBOTS'>
+<meta content='NOODP' name='ROBOTS'>
+<meta content='summary' name='twitter:card'>
+<meta content='@sonicgarden_bot' name='twitter:site'>
+<title>sgLearning</title>
+<meta content="Ruby on RailsでWebアプリケーションを開発する上で必要なことを学ぶことができる学習サービス。Ruby on Railsを学ぶ一番早い方法です。" name="description" />
+<meta content="ソニックガーデン,sonicgarden,ruby on rails,アジャイル,コードレビュー" name="keywords" />
+<meta content="sgLearning" property="og:site_name" />
+<meta content="Ruby on RailsでWebアプリケーションを開発する上で必要なことを学ぶことができる学習サービス。Ruby on Railsを学ぶ一番早い方法です。" property="og:description" />
+<meta content="http://files.sonicgarden.jp/sites/facebook.gif" property="og:image" />
+<meta content="article" property="og:type" />
+<meta content="ja_JP" property="og:locale" />
+
+<link href="/assets/application-d78ab50fc3fdfffc3c1ee643771685b9.css" media="screen" rel="stylesheet" />
+<script src="/assets/application-bee95566ca4aced8f50afd84e23a28c5.js"></script>
+<link href="http://www.sonicgarden.jp/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="T1KNBK7MowwTiazyENtjrL2xwhzzrUzkVrVNwlqGkmU=" name="csrf-token" />
+<!--[if IE]>
+<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="/javascripts/respond.min.js"></script>
+<![endif]-->
+</head>
+<body class='messages'>
+<div class='navbar navbar-default navbar-fixed-top'>
+<div class='container'>
+<div class='navbar-header'>
+<a class="navbar-brand" href="/">sgLearning
+</a></div>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class="item"><a href="/menu">クラス選択</a></li>
+</ul>
+<ul class='nav navbar-nav pull-right'>
+<li class='item'>
+<a class="logout" data-method="delete" href="/users/sign_out" rel="nofollow"><img alt="Gravatar" height="80" src="https://secure.gravatar.com/avatar/7459ad7f2c3cdf71a491544d290220f2?secure=true" width="80" />
+ログアウト
+</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class='container'>
+
+<h1>New message</h1>
+<form accept-charset="UTF-8" action="/messages" class="new_message" id="new_message" method="post" role="form"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="T1KNBK7MowwTiazyENtjrL2xwhzzrUzkVrVNwlqGkmU=" /></div><div class='field form-group'>
+<label for="message_user">User</label>
+<input class="form-control" id="message_user" name="message[user]" type="text" />
+</div>
+<div class='field form-group'>
+<label for="message_text">Text</label>
+<input class="form-control" id="message_text" name="message[text]" type="text" />
+</div>
+<div class='actions'>
+<input class="btn btn-default" name="commit" type="submit" value="Save" />
+</div>
+</form>
+
+
+<a href="/messages">Back</a>
+
+<footer>
+<p class='copyright'>
+SonicGarden Inc.
+</p>
+</footer>
+</div>
+
+</body>
+</html>
+
+---
+Remote Address:75.101.152.27:443
+Request URL:https://learning.sonicgarden.jp/messages
+Request Method:POST
+Status Code:302 Found
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate
+Accept-Language:ja,en-US;q=0.8,en;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Content-Length:138
+Content-Type:application/x-www-form-urlencoded
+Cookie:_ga=; _sglearnings_session=MU1yS2pNVGE5ZGl6VW9kQkNZSUVqWGszeURndjZJYnh5UlFEM0VlQ0R5OXpWM3pwME1Kd2xMN1doeGFtQ1FwU2h2N2VCT0VkeHRrdk8xRjdRUTZCZ0ZmdE5WQk1YNjlqNXA0aHhXNlZPT0d4R2ZQbFZicTVtdE5VSzVwTng1WVMxSXVWM295eUNUc1k4dmMzTnhhUnVSMmZYN3AwZEtVa2VXc2JvV0RxT3h6NGRWUDJwSmNJR21VejY2ejJ0NjdkSzI4a1R3NHhncnJ3K3RhNjdJaUhrNTVKUUdmNnl1bVNhb1NwL0VmMFpzMD0tLUJUYXgwM3AyZ2RsVWJUZnFEMXVodWc9PQ%3D%3D--3cc1d909d41ad12d1358dc9b0b3fc21fc28b0e91
+Host:learning.sonicgarden.jp
+Origin:https://learning.sonicgarden.jp
+Referer:https://learning.sonicgarden.jp/messages/new
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+Form Dataview sourceview URL encoded
+utf8:✓
+authenticity_token:T1KNBK7MowwTiazyENtjrL2xwhzzrUzkVrVNwlqGkmU=
+message[user]:user
+message[text]:text
+commit:Save
+Response Headersview source
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:text/html; charset=utf-8
+Date:Sat, 08 Nov 2014 04:23:47 GMT
+Location:https://learning.sonicgarden.jp/messages/27
+Server:Cowboy
+Set-Cookie:_sglearnings_session=b1F2OFJMNitRdFpXVXpvbjB1TmJLdXdEMWhydzl1bnowcUNleEIyZEtkdGFHbUpWVWxYajBYSy92WkcrK1VZdUJKa0tpM29zVHd0S1djT3BPTmkvbnlaM3hBR0NteUZyZEZwSjJUem91Y0ZidFZZa1RGa3BSSjFCK2E3NUFoZW5Fam1VaVJ4MHF6UmJJS2pIQzNGKzd0b25kWE80RmVpVmpLZW5BektvR2wySVpNb3c1TThZdTgwMENkODIxWHdUN1NGeDlHSHlrRFRscmtGUkE0UG56VjNHd3BjRXBxTjIyZXpibjdsQ1Qxa1Z1bjRrR3pvQWhoejMwUGxXa2RpVkNMZTRGYmNEYzVYUTBnZHBLZ3dBOUhJSlhsSzV6ejdROG5FMGFObWRpWXFSQSs4dWtnR21Vdmp5TXJlMmlhSUFrTFd0TStxSDBVbWR6TXZGNm5pRFdRPT0tLWFURzdvaUphMlFuVWpRU0hkeVlIWUE9PQ%3D%3D--61900462e0b8532bf4f21973808e517a9603ee1d; path=/; secure; HttpOnly
+Strict-Transport-Security:max-age=31536000
+Transfer-Encoding:chunked
+Via:1.1 vegur
+X-Content-Type-Options:nosniff
+X-Frame-Options:SAMEORIGIN
+X-Request-Id:a1f9c0d1-02a8-41ec-8670-3ad1f55fe856
+X-Runtime:0.022108
+X-Xss-Protection:1; mode=block
+
+------------------------------------------------------------
+oya:登録した情報を閲覧する。
+---
+Remote Address:204.236.233.4:443
+Request URL:https://learning.sonicgarden.jp/messages/27
+Request Method:GET
+Status Code:200 OK
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:ja,en-US;q=0.8,en;q=0.6
+Connection:keep-alive
+Cookie:_ga=; _sglearnings_session=SGN3bnRROVdoYTB4dlpnTUt6MjhNQ0VCVGV6S1BrOXVaWStwTFErdHpVaWhKQmV2bWhlbHRLbGpPMC9BOXh5ZERwb2p5MEk0SWc1L1h0MDBQdE1aN1RhZVNKdjBJdUZTZTQ1bmdKVDd2Ym5BZ2tkNHpMcnZsaDd5RlQrN290K1BlNU5CNWZ4ak5xWE84dzNRNE5vWFdhVEJCcTRxZWY1a05Fc2dXdm1WRHFxWWZENW5FRCtmbnJCOWpTemx6dmpyam5RRVdRbnE3TTJya21aT1RiZ1B0YnlFSEtocnBxbjJhSWdVbXE3QWRMND0tLVpOaVhHSGllR1VhYWFhcmx2VElOQmc9PQ%3D%3D--a62b18ec150d59c09670a76bc82c4200809c34cb
+Host:learning.sonicgarden.jp
+If-None-Match:"8dbc1a23caf63903e6bcf85da9120d62"
+Referer:https://learning.sonicgarden.jp/messages
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+Response Headersview source
+Cache-Control:max-age=0, private, must-revalidate
+Connection:keep-alive
+Content-Length:5509
+Content-Type:text/html; charset=utf-8
+Date:Sat, 08 Nov 2014 04:25:41 GMT
+Etag:"f0be47489db235dfa7a0189f30c4229a"
+Server:Cowboy
+Set-Cookie:_sglearnings_session=ZTZZVzVkSTVKVWw5eVVLditpNHo4TmRCQnB5NXBOTjhRQTN6TG1JOWtXK1hzRWlpRW9OV3VLa0FIYk1VWVllRVhjZjhiaVMxQVhKSGxqbmhxTm9GTWV6bG5QTitRV05jN09FS2ZlMXpmS2FmamExQUFWZndNM3ZHbG45UW9RY3IzaXEzeDdKYm45TkpYTU1kWHJGZjJzczRtUzlhcmJDUTU5SVJDek4vTXd4QVhvd09lNzNuRnc3VnVWaTNBYTBSeGNvbXFDNE8rZEtEbEJXaUk5cVR3alVGRHR0WUpWOEZEYzFsRUV0UGlDST0tLWJEcjhod3hKci9zTTJNUFc1MVUvSkE9PQ%3D%3D--7f691089b449b1d8e7c7996c42889b2d6fe3546c; path=/; secure; HttpOnly
+Strict-Transport-Security:max-age=31536000
+Via:1.1 vegur
+X-Content-Type-Options:nosniff
+X-Frame-Options:SAMEORIGIN
+X-Request-Id:66d138fd-c491-45c2-9e36-a804c920e727
+X-Runtime:0.021773
+X-Xss-Protection:1; mode=block
+
+------------------------------------------------------------
+oya:編集画面呼び出し
+---
+Remote Address:204.236.233.4:443
+Request URL:https://learning.sonicgarden.jp/messages/27/edit
+Request Method:GET
+Status Code:200 OK
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:ja,en-US;q=0.8,en;q=0.6
+Connection:keep-alive
+Cookie:_ga=; _sglearnings_session=ZTZZVzVkSTVKVWw5eVVLditpNHo4TmRCQnB5NXBOTjhRQTN6TG1JOWtXK1hzRWlpRW9OV3VLa0FIYk1VWVllRVhjZjhiaVMxQVhKSGxqbmhxTm9GTWV6bG5QTitRV05jN09FS2ZlMXpmS2FmamExQUFWZndNM3ZHbG45UW9RY3IzaXEzeDdKYm45TkpYTU1kWHJGZjJzczRtUzlhcmJDUTU5SVJDek4vTXd4QVhvd09lNzNuRnc3VnVWaTNBYTBSeGNvbXFDNE8rZEtEbEJXaUk5cVR3alVGRHR0WUpWOEZEYzFsRUV0UGlDST0tLWJEcjhod3hKci9zTTJNUFc1MVUvSkE9PQ%3D%3D--7f691089b449b1d8e7c7996c42889b2d6fe3546c
+Host:learning.sonicgarden.jp
+Referer:https://learning.sonicgarden.jp/messages
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+Response Headersview source
+Cache-Control:max-age=0, private, must-revalidate
+Connection:keep-alive
+Content-Length:6271
+Content-Type:text/html; charset=utf-8
+Date:Sat, 08 Nov 2014 04:26:32 GMT
+Etag:"aa4ea65623ecbbb7dafb90617ccb29c6"
+Server:Cowboy
+Set-Cookie:_sglearnings_session=V0ZDUEltMzYyK2o5d0FROGMyK0FRNjFEZVVnNXVpaEZSenJYNVQ5RXpoSTM4M0Vydkg2V1dzTW82WW4xbHlXUEpkbHdicmNCWDlUcXVURzBMMmZURjZ4NXlUYnRhcEVXbFFNb3lDQnlEUVV6ZmpXNWRLczlUMjU3QmZRRGlQWWNNMGhCRC8xSlN3V2pNZWdTeXhLclVwUUF1S2Q0RGVZczBJZDdhMTFQVHA1em52VDR0akdrdVhJUnBUVWZiTFpkUWZIYmxDUUNhVVc5NXlmNld5QVBraFl4UU50Mkg5Y2E2YWdqMWl1cUxocz0tLW05RWVDRHd0UVpDa2NXTkxjdG9qbnc9PQ%3D%3D--5d26078771c315db24eed1ea8ac50e529a5bcd76; path=/; secure; HttpOnly
+Strict-Transport-Security:max-age=31536000
+Via:1.1 vegur
+X-Content-Type-Options:nosniff
+X-Frame-Options:SAMEORIGIN
+X-Request-Id:c70ebe25-3f0f-4200-9a02-7750bdfca4de
+X-Runtime:0.042082
+X-Xss-Protection:1; mode=block
+
+------------------------------------------------------------
+oya:編集
+---
+Remote Address:75.101.152.27:443
+Request URL:https://learning.sonicgarden.jp/messages/27
+Request Method:POST
+Status Code:302 Found
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate
+Accept-Language:ja,en-US;q=0.8,en;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Content-Length:160
+Content-Type:application/x-www-form-urlencoded
+Cookie:_ga=; _sglearnings_session=V0ZDUEltMzYyK2o5d0FROGMyK0FRNjFEZVVnNXVpaEZSenJYNVQ5RXpoSTM4M0Vydkg2V1dzTW82WW4xbHlXUEpkbHdicmNCWDlUcXVURzBMMmZURjZ4NXlUYnRhcEVXbFFNb3lDQnlEUVV6ZmpXNWRLczlUMjU3QmZRRGlQWWNNMGhCRC8xSlN3V2pNZWdTeXhLclVwUUF1S2Q0RGVZczBJZDdhMTFQVHA1em52VDR0akdrdVhJUnBUVWZiTFpkUWZIYmxDUUNhVVc5NXlmNld5QVBraFl4UU50Mkg5Y2E2YWdqMWl1cUxocz0tLW05RWVDRHd0UVpDa2NXTkxjdG9qbnc9PQ%3D%3D--5d26078771c315db24eed1ea8ac50e529a5bcd76
+Host:learning.sonicgarden.jp
+Origin:https://learning.sonicgarden.jp
+Referer:https://learning.sonicgarden.jp/messages/27/edit
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+Form Dataview sourceview URL encoded
+utf8:✓
+_method:patch
+authenticity_token:T1KNBK7MowwTiazyENtjrL2xwhzzrUzkVrVNwlqGkmU=
+message[user]:user.new
+message[text]:text.new
+commit:Save
+Response Headersview source
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:text/html; charset=utf-8
+Date:Sat, 08 Nov 2014 04:27:40 GMT
+Location:https://learning.sonicgarden.jp/messages/27
+Server:Cowboy
+Set-Cookie:_sglearnings_session=WVZNcVFWTmFuYUN1eEEzQVJ6NDdHN2EwVFF3UjN4KzN1aGF5dVdXUE56T2cxNGU5dlB1dTVoR3JxRFJJR0oxdisxSVM0SVlvakw0cXF0SnVhb0FubXYrTHBSOHFKb3hoR3Vwc3M0V3dsbitmK2lVYzVJeEY4V3RJdm9mN3JiSkdIVUM4bjZqTXlJVG14UjBnRHJQQWhJWWFrcW42bktQdE0zUSszcXJmeG9zcWZrZ3NSay84bjl4NHd4b1B1bHlodXMveEpxaS9wS0NPMGJYTGxoWlFGNnZvNWNHRnFkVVNQZTRIU0VkT3FPeEtNN1NJdEgyN29QRUhJMUYycmFLT1cyaFh1UkxRNnZPVzBqNTFKYWZoL0NrT1hCRjA2N1ZXZkxjdzJrQm5LOVBTaDlKZE9oVTgwVDFLaVFEZzJsSmhPMzlLcDhWQ0pWR3Rvdm1wbTIwbGlBPT0tLVI0WDhOdjgyRk0zL1Y4amVuclhsRlE9PQ%3D%3D--a035f868fefd41be7e5cad6c38178cf7c8c8d806; path=/; secure; HttpOnly
+Strict-Transport-Security:max-age=31536000
+Transfer-Encoding:chunked
+Via:1.1 vegur
+X-Content-Type-Options:nosniff
+X-Frame-Options:SAMEORIGIN
+X-Request-Id:5a91dc8e-5193-4a9b-ba2e-e2447d138574
+X-Runtime:0.025450
+X-Xss-Protection:1; mode=block
+
+------------------------------------------------------------
+oya:削除
+---
+Remote Address:75.101.152.27:443
+Request URL:https://learning.sonicgarden.jp/messages/27
+Request Method:POST
+Status Code:302 Found
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate
+Accept-Language:ja,en-US;q=0.8,en;q=0.6
+Cache-Control:max-age=0
+Connection:keep-alive
+Content-Length:80
+Content-Type:application/x-www-form-urlencoded
+Cookie:_ga=; _sglearnings_session=RWEyaEFtbDhRUlEvWkVXMjZxM2FVdDBHVklVVnAxRjU5dkh2WG9aa3BsWGR3OFhpTHd6WVg0L2hNR0lSRGlmRVI5aHo2byt0UUlqbEtORHA3ejRTZFhIRWFBQ3BrNFYzQXVVVklDa0hxL1dFM2Q5MEE3bklucEZmcGc2MEQ1bGl1Y0ZZWmk5MWkrUDBrVXBTYm9UZSt2MktWaGxSVjdXeEZFSjFnZjBVMTRKMFc2amd0T0wyS3ZUWVJzVm9TSDZxTE1FNHNOSW9PK3JITnVjRUoyeTJBUU5Sa3VQRkZ2ZlNQSEYvRTIvNWxjVT0tLVBkMFJ6NUZzdm1mRlZOR2tQdGdmT3c9PQ%3D%3D--9ef723f998b05ace2e6fd293ef7dacff40812b5f
+Host:learning.sonicgarden.jp
+Origin:https://learning.sonicgarden.jp
+Referer:https://learning.sonicgarden.jp/messages
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36
+Form Dataview sourceview URL encoded
+_method:delete
+authenticity_token:T1KNBK7MowwTiazyENtjrL2xwhzzrUzkVrVNwlqGkmU=
+Response Headersview source
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Type:text/html; charset=utf-8
+Date:Sat, 08 Nov 2014 04:30:00 GMT
+Location:https://learning.sonicgarden.jp/messages
+Server:Cowboy
+Strict-Transport-Security:max-age=31536000
+Transfer-Encoding:chunked
+Via:1.1 vegur
+X-Content-Type-Options:nosniff
+X-Frame-Options:SAMEORIGIN
+X-Request-Id:a7d58ed3-88e4-4834-b8e6-2ef0434d28dd
+X-Runtime:0.034589
+X-Xss-Protection:1; mode=block
+
+
