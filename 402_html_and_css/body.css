@@ -5,21 +5,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* ページの背景色 */
-    color: #000000; /* 全体の文字色 */
-    font-size: 100%; /* 全体の文字サイズ */
+    background-color: #90ee90; /* ページの背景色 */
 }
-
-/* --- 全体のリンクテキスト --- */
-a:link { color: #0000ff; }
-a:visited { color: #800080; }
-a:hover { color: #ff0000; }
-a:active { color: #ff0000; }
 
 /* --- コンテナ --- */
 #container {
     width: 100%; /* ページの幅 */
-    background-color: #90ee90;
 }
 #containerInner {
     width: 95%;
@@ -72,7 +63,8 @@ a:active { color: #ff0000; }
 
 /* --- フッタ --- */
 #footer {
-    clear: left; /* フロートのクリア */
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
     background-color: #90ee90;
 }
