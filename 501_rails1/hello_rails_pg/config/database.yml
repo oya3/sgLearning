@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  host: localhost
+  username: kazunori
+  password: 
+  database: hello_rails_pg_development
+  encoding: utf8
+
+test:
+  adapter: postgresql
+  host: localhost
+  username: kazunori
+  password: 
+  encoding: utf8
+  database: hello_rails_pg_development
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: hello_rails_pg_production
+  pool: 5
