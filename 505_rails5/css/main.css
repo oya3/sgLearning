@@ -1,0 +1,57 @@
+/* comment */
+/* 
+  comment1
+  comment2
+*/
+#main {
+  width: 90%;
+}
+#main p {
+  color: green;
+  font-size: 14px;
+  background: url("../img/bg.png");
+  background: url("../img/bg.png");
+}
+#main p .sub {
+  color: rgba(255, 153, 153, 0.9);
+  font-size: 12px;
+}
+#main p a {
+  text-decoration: none;
+  font-size: 24px;
+}
+#main p a:hover {
+  font-weight: bold;
+}
+#main .for_fs10 {
+  font-size: 10px;
+}
+#main .for_fs11 {
+  font-size: 11px;
+}
+#main .for_fs12 {
+  font-size: 12px;
+}
+#main .for_fs13 {
+  font-size: 13px;
+}
+#main .for_fs14 {
+  font-size: 14px;
+}
+#main .while_fs10 {
+  font-size: 10px;
+}
+#main .while_fs11 {
+  font-size: 11px;
+}
+#main .while_fs12 {
+  font-size: 12px;
+}
+#main .while_fs13 {
+  font-size: 13px;
+}
+#main .while_fs14 {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=main.css.map */

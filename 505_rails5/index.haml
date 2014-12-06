@@ -1,0 +1,67 @@
+!!!
+%html{:lang => "ja"}
+  %head
+    %meta(charset="UTF-8")
+    /
+      コメントはコードの有効/無効の切り替えにも使えるかも
+      %meta(charset="UTF-8")
+  %body
+    hello world!
+    / bodyの終わり # HTML に残るコメント
+    /
+      複数コメント１ # HTML に残るコメント
+      複数コメント２
+    -# コメント # HAML 上のみのコメント
+    -#
+      複数コメント１ # HAML 上のみのコメント
+      複数コメント２
+    / 改行実験
+    %p hello p tag
+    %p
+      hello p tag 2
+    / 改行実験２
+    %ul
+      %li
+        item
+    / 改行実験２
+    %ul
+      %li<
+        item
+    / 改行実験３
+    %ul
+      %li<>
+        item
+    / 属性設定１
+    %div{:id => "main", :class => "myclass"}
+    / 属性設定２
+    %div(id="main" class="myclass")
+    / 属性設定３
+    %div#main.myclass
+    / 属性設定４（divのみ省略可能）
+    #main.myclass
+    / フィルタ実験
+    / css を展開できる
+    :css
+      .mystyle {
+        color: red;
+      }
+    / javascript を展開できる
+    :javascript
+      alert(1);
+      if(1){
+        alert2(2);
+      }
+    %div
+      / エスケープできる
+      :escaped
+        <html>
+        </html>
+    / ruby コード実行サンプル
+    %p total is #{5 * 3}
+    %p= Time.now
+    - x = 5
+    %p= x
+    / 繰り返し実験
+    - (1..10).each do |i|
+      -# %p= i
+      %p{:id => "item_#{i}"} #{i}

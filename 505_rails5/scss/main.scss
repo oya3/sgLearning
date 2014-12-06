@@ -1,0 +1,49 @@
+/* comment */
+/* 
+  comment1
+  comment2
+*/
+// comment これはcssには出力されないコメント
+
+// 変数宣言(数値、文字列、真偽、色、リストがある）
+$baseFontSize: 14px; // 数値
+$imgDir: "../img/"; // 文字列
+$brandColor: rgba(255,0,0,0.9); // red, #00ff00:, rgba(255,0,0,0);
+$mode: ture;
+$x: 10;
+
+#main {
+  width: 90%;
+  p {
+    @if $mode == true { // if分は > < >= <= == != 等が使える
+      color: $brandColor;
+    } @else {
+      color: green;
+    }
+    font-size: $baseFontSize;
+    background: url($imgDir + "bg.png");
+    background: url("#{$imgDir}bg.png");
+    .sub {
+      color: lighten($brandColor, 30%); // $brandColorを30%明るくす(web で [sass buillt-in functions] 等で検索すればfunction一覧がある）
+      font-size: $baseFontSize - 2px; // 計算
+    }
+    a {
+      @if $x > 20 { color: yellow; }
+      text-decoration: none;
+      font-size: #{12 + 12}px; // 計算
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+  // for 繰り返し
+  @for $i from 10 through 14 {
+    .for_fs#{$i} { font-size: #{$i}px; }
+  }
+  // while 繰り返し
+  $i: 10;
+  @while $i <= 14 {
+    .while_fs#{$i} { font-size: #{$i}px; }
+    $i: $i + 1;
+  }
+}

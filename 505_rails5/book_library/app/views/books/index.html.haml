@@ -1,0 +1,21 @@
+%h1 Listing books haml(custom.css)
+%table
+  %thead
+    %tr
+      %th Title
+      %th Author
+      %th Outline
+      %th(colspan="3")
+
+  %tbody
+    - @books.each do |book|
+      %tr
+        / scss の適応実験
+        %td(class="myclass") #{book.title}
+        %td= book.author
+        %td= book.outline
+        %td #{link_to('Show2', book)}
+        %td= link_to 'Edit', edit_book_path(book)
+        %td= link_to 'Destroy', book, method: :delete, data: { confirm: 'Are you sure?' }
+%br
+= link_to 'New Book', new_book_path

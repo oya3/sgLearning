@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <!--
+      コメントはコードの有効/無効の切り替えにも使えるかも
+      <meta charset="UTF-8">
+    -->
+  </head>
+  <body>
+    hello world!
+    <!-- bodyの終わり # HTML に残るコメント -->
+    <!--
+      複数コメント１ # HTML に残るコメント
+      複数コメント２
+    -->
+    <!-- 改行実験 -->
+    <p>hello p tag</p>
+    <p>
+      hello p tag 2
+    </p>
+    <!-- 改行実験２ -->
+    <ul>
+      <li>
+        item
+      </li>
+    </ul>
+    <!-- 改行実験２ -->
+    <ul>
+      <li>item</li>
+    </ul>
+    <!-- 改行実験３ -->
+    <ul><li>item</li></ul>
+    <!-- 属性設定１ -->
+    <div class="myclass" id="main"></div>
+    <!-- 属性設定２ -->
+    <div class="myclass" id="main"></div>
+    <!-- 属性設定３ -->
+    <div class="myclass" id="main"></div>
+    <!-- 属性設定４（divのみ省略可能） -->
+    <div class="myclass" id="main"></div>
+    <!-- フィルタ実験 -->
+    <!-- css を展開できる -->
+    <style>
+      .mystyle {
+        color: red;
+      }
+    </style>
+    <!-- javascript を展開できる -->
+    <script>
+      alert(1);
+      if(1){
+        alert2(2);
+      }
+    </script>
+    <div>
+      <!-- エスケープできる -->
+      &lt;html&gt;
+      &lt;/html&gt;
+    </div>
+    <!-- ruby コード実行サンプル -->
+    <p>total is 15</p>
+    <p>2014-12-06 14:20:42 +0900</p>
+    <p>5</p>
+    <!-- 繰り返し実験 -->
+    <p id="item_1">1</p>
+    <p id="item_2">2</p>
+    <p id="item_3">3</p>
+    <p id="item_4">4</p>
+    <p id="item_5">5</p>
+    <p id="item_6">6</p>
+    <p id="item_7">7</p>
+    <p id="item_8">8</p>
+    <p id="item_9">9</p>
+    <p id="item_10">10</p>
+  </body>
+</html>
