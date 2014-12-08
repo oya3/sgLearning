@@ -11,14 +11,14 @@
   </thead>
 
   <tbody>
-    <% @comments.each do |comment| %>
+    <% @entry.comments.each do |comment| %>
       <tr>
         <td><%= comment.body %></td>
         <td><%= comment.status %></td>
         <td><%= comment.entry_id %></td>
-        <td><%= link_to 'Show', comment %></td>
-        <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
-        <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', [@blog,@entry,comment] %></td>
+        <td><%= link_to 'Edit', edit_blog_entry_comment_path(@blog,@entry,comment) %></td>
+        <td><%= link_to 'Destroy', [@blog,@entry,comment], method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Comment', new_comment_path %>
+<%= link_to 'New Comment', new_blog_entry_comment_path(@blog,@entry) %>

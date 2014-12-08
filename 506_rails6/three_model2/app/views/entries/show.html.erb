@@ -1,19 +1,54 @@
+<%# --- BLOG --- %>
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong>ブログ名：</strong>
+  <%= @blog.title %>
+</p>
+
+<%# --- ENTRY --- %>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>title:</strong>
   <%= @entry.title %>
-</p>
-
-<p>
-  <strong>Body:</strong>
+  <strong>body:</strong>
   <%= @entry.body %>
-</p>
-
-<p>
-  <strong>Blog:</strong>
+  <strong>blog_id:</strong>
   <%= @entry.blog_id %>
 </p>
 
-<%= link_to 'Edit', edit_entry_path(@entry) %> |
-<%= link_to 'Back', entries_path %>
+<%= link_to 'Edit', edit_blog_entry_path(@blog,@entry) %> |
+<%= link_to 'Back', blog_path(@blog) %>
+
+
+
+<%# --- COMMENT --- %>
+<h3>Listing comments</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Body</th>
+      <th>Status</th>
+      <th>Entry</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @entry.comments.each do |comment| %>
+      <tr>
+        <td><%= comment.body %></td>
+        <td><%= comment.status %></td>
+        <td><%= comment.entry_id %></td>
+        <%# ここに status が unapproved ならば、approved を表示させて、status unapprovedからapprovedに変更する %>
+        <td><%= link_to 'Destroy', [@blog,@entry,comment], method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Comment', new_blog_entry_comment_path(@blog,@entry) %>

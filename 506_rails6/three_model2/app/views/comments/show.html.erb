@@ -15,5 +15,5 @@
   <%= @comment.entry_id %>
 </p>
 
-<%= link_to 'Edit', edit_comment_path(@comment) %> |
-<%= link_to 'Back', comments_path %>
+<%= link_to 'Edit', edit_blog_entry_comment_path(@blog,@entry,@comment) %> |
+<%= link_to 'Back', blog_entry_comments_path %>
