@@ -1,6 +1,24 @@
 class CommentsController < ApplicationController
   before_action :set_comment, only: [:show, :edit, :update, :destroy]
-
+    
+    # POST /comments/1
+    def approve
+        logger.debug("***comment approve*** #{params}")
+        @blog = Blog.find(params[:blog_id])
+        @entry = Entry.find(params[:entry_id])
+        @comment = @entry.comments.find(params[:comment_id])
+        @comment.status = 'approved'
+        respond_to do |format|
+            if @comment.save
+                format.html { redirect_to [@blog,@entry,@comment], notice: 'Comment was successfully created.' }
+                format.json { render :show, status: :created, location: [@blog,@entry,@comment] }
+            else
+                format.html { render :new }
+                format.json { render json: @comment.errors, status: :unprocessable_entity }
+            end
+        end
+    end
+    
   # GET /comments
   # GET /comments.json
   def index

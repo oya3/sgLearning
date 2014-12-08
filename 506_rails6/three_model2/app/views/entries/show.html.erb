@@ -39,10 +39,18 @@
   <tbody>
     <% @entry.comments.each do |comment| %>
       <tr>
+        <% if( comment.status == 'unapproved') then %>
+        <td>(承認待ち)</td>
+        <% else %>
         <td><%= comment.body %></td>
+        <% end %>
         <td><%= comment.status %></td>
         <td><%= comment.entry_id %></td>
-        <%# ここに status が unapproved ならば、approved を表示させて、status unapprovedからapprovedに変更する %>
+        <% if( comment.status == 'unapproved') then %>
+        <td><%= link_to 'Approve', blog_entry_comment_approve_path(@blog,@entry,comment) %></td>
+        <% else %>
+        <td></td>
+        <% end %>
         <td><%= link_to 'Destroy', [@blog,@entry,comment], method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
